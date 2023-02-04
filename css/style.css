@@ -1,8 +1,12 @@
-
-.accordion-item{
-    
+body{
+    background-image: url(../img/Burger-z-kurkou_siteWebUkr.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .accordion{
+    border: 1px black solid;
+    border-radius: 30px;
+    transform: scale(0.9);
     margin-right: 600px;
     margin-top: 10px;
 }
@@ -24,16 +28,18 @@
     border-radius: 20px;
 }
 .list-group{
+    transform: scale(1.2);
     margin-left: 1500px;
     margin-right: 100px;
-    margin-top: 10px;
-    padding-top: -30px;
+    margin-top: 240px;
 }
 .carousel{
-   margin-top: -390px;
+   transform: scale(1.2);
+   margin-top: -370px;
    width: 700px;
    margin-right: auto;
    margin-left: -200px;
+   
    
 }
 .accordion{
@@ -44,8 +50,22 @@
 }
 .mb-3{
     margin-left: 40px;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-right: 100px;
+}
+.mc{
+    text-align: center;
+    margin-top: 354px;
+    font-size: 50px;
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    background: rgb(228, 202, 202);
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.mc:hover{
+    opacity: 1;
 }
 
 
